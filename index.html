@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Movie Scene Graph</title>
+		<link rel="stylesheet" type="text/css" href="assets/style.css"></link>
+        <script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+	</head>
+	<body>
+		<div width="100%">
+			<select class="dropDown" id="movieSelect" onchange="NewMovie()">
+				<option value="theavengers" selected>The Avengers</option>
+				<option value="captainamerica">Captain America</option>
+			</select>
+			<h1 id="title"></h1>
+			<h2>Main Events</h2>
+			<svg id="timeline_container" width="90%" height="100px">
+			</svg>
+			<div id="main_content">
+			</div>
+		</div>
+	</body>
+	<footer>
+		<script type="text/javascript" src="assets/js/timeline.js"></script>
+	</footer>
+</html>

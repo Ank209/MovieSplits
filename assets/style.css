@@ -1,0 +1,27 @@
+body {
+	font-family: "Arial", Arial, sans-serif;
+	text-align: center;
+}
+
+rect  {
+	height:90%;
+	y:5%;
+}
+
+rect:hover {
+	height:100%;
+	y:0%;
+}
+
+.main {
+    padding-left:5%;
+}
+
+.event  {
+	display:none;
+}
+
+.selected  {
+	height:100%;
+	y:0%;
+}
