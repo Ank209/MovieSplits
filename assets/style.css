@@ -25,3 +25,8 @@ rect:hover {
 	height:100%;
 	y:0%;
 }
+
+#main_content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
